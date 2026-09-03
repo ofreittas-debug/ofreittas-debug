@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./header.svg?v=1" width="100%" alt="Alisson Freitas - Desenvolvedor Full-Stack & Engenheiro de Software" />
+  <img src="./header.svg" width="100%" alt="Alisson Freitas - Desenvolvedor Full-Stack e Engenheiro de Software" />
 </p>
 
 <p align="left">
@@ -29,23 +29,23 @@ Algumas das aplicações completas concebidas, arquitetadas e ativas em produç�
 
 | Projeto | Tipo / Categoria | Proposta de Valor & Engenharia | Stack Tecnológica | Link Direto |
 | :--- | :--- | :--- | :--- | :---: |
-| **Super Leads Hub** | SaaS Multi-Tenant | Ingestão e telemetria de tráfego em tempo real, isolamento estrito de dados entre empresas via RLS no PostgreSQL e painel RBAC. | `Next.js` `TypeScript` `PostgreSQL` `Tailwind` | [🌐 Ver Aplicação](https://super-leads-hub-main.vercel.app) |
-| **DriveX** | SaaS / PWA Financeiro | Plataforma analítica para motoristas de aplicativo com algoritmos de rentabilidade líquida instantânea (R$/km e R$/h) e exportação em PDF. | `React` `TypeScript` `PWA` `Chart.js` | [🌐 Ver Aplicação](https://drivex1.vercel.app) |
-| **Gestão Imóveis** | Portal & CRM Imobiliário | Portal corporativo e CRM com filtros dinâmicos, métricas analíticas de procura por imóvel e captação direta de leads. | `TanStack` `TypeScript` `Supabase` `Radix UI` | [🌐 Ver Aplicação](https://gestaoimoveis.net.br) |
+| **Super Leads Hub** | SaaS Multi-Tenant | Ingestão e telemetria de tráfego em tempo real, isolamento estrito de dados entre empresas via RLS no PostgreSQL e painel RBAC. | `Next.js` `TypeScript` `PostgreSQL` `Tailwind` | [🌐 Acessar Site](https://super-leads-hub-main.vercel.app) |
+| **DriveX** | SaaS / PWA Financeiro | Plataforma analítica para motoristas de aplicativo com algoritmos de rentabilidade líquida instantânea (R$/km e R$/h) e exportação em PDF. | `React` `TypeScript` `PWA` `Chart.js` | [🌐 Acessar Site](https://drivex1.vercel.app) |
+| **Gestão Imóveis** | Portal & CRM Imobiliário | Portal corporativo e CRM com filtros dinâmicos, métricas analíticas de procura por imóvel e captação direta de leads. | `TanStack` `TypeScript` `Supabase` `Radix UI` | [🌐 Acessar Site](https://gestaoimoveis.net.br) |
 | **Libertadores da Depressão** | Mídia Kit Comercial | Plataforma comercial interativa para marcas com gráficos dinâmicos de audiência e painel restrito (`/admin`) para gestão de métricas. | `React` `Vite` `Supabase` `Recharts` | [🌐 Ver Aplicação](https://libertadoresdadepre.vercel.app) |
-| **AF Stack Studio** | Portfólio & Engenharia | Portfólio interativo com terminal emulado, arquitetura dos sistemas, dossiês de avaliação e métricas de ROI. | `Next.js 14` `TypeScript` `Framer Motion` | [🌐 Ver Aplicação](https://alissonfreittas.vercel.app) |
+| **AF Stack Studio** | Portfólio & Engenharia | Portfólio interativo com terminal emulado, arquitetura dos sistemas, dossiês de avaliação e métricas de ROI. | `Next.js 14` `TypeScript` `Framer Motion` | [🌐 Acessar Site](https://alissonfreittas.vercel.app) |
 
 ---
 
 ### 🛡️ Diferenciais & Foco Técnico
 
-* 🏗️ **Arquitetura & Modelagem:** Concepção da regra de negócio de ponta a ponta — do desenho de entidades e fluxos lógicos ao software em produção.
+* 🏗️ **Arquitetura & Modelagem:** Concepção da regra de negócio de ponta a ponta. Do desenho de entidades e fluxos lógicos ao software em produção.
 * 🔒 **Segurança & Governança:** Especialista na implementação de políticas de Row Level Security (RLS) no PostgreSQL, controle RBAC e conformidade LGPD.
 * ⚡ **Troubleshooting Ágil:** Mais de 10 anos diagnosticando causas-raiz em hardware, sistemas operacionais e redes TCP/IP, garantindo facilidade para depuração de problemas complexos.
 
 ---
 
-### 🤖 Linguagens
+### 🤖 Linguagens Mais Usadas
 
 <img 
     align="left" 
