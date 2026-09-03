@@ -34,14 +34,15 @@
 
   <rect
     data-testid="card-bg"
-    x="0.5"
-    y="0.5"
-    rx="4.5"
-    height="99%"
+    x="1"
+    y="1"
+    rx="5"
+    height="193"
+    width="298"
     stroke="#e4e2e2"
-    width="299"
-    fill="#1a1b27"
+    stroke-width="1.5"
     stroke-opacity="1"
+    fill="#1a1b27"
   />
 
   <g data-testid="card-title" transform="translate(25, 35)">
@@ -57,21 +58,21 @@
         <rect x="0" y="0" width="250" height="8" fill="white" rx="5"/>
       </mask>
 
-      <!-- Segmentos da Barra (Total = 250px) -->
-      <!-- TypeScript: 130px (52.0%) -->
+      <!-- Segmentos da Barra (Total = 250px) - Cores 100% distintas -->
+      <!-- TypeScript (Azul mantido): 130px (52.0%) -->
       <rect mask="url(#rect-mask)" data-testid="lang-progress" x="0" y="0" width="130" height="8" fill="#3178c6" />
-      <!-- React: 50px (20.0%) -->
-      <rect mask="url(#rect-mask)" data-testid="lang-progress" x="130" y="0" width="50" height="8" fill="#61dafb" />
-      <!-- Tailwind CSS: 35px (14.0%) -->
-      <rect mask="url(#rect-mask)" data-testid="lang-progress" x="180" y="0" width="35" height="8" fill="#38bdf8" />
-      <!-- JavaScript: 15px (6.0%) -->
+      <!-- React (Roxo/Púrpura vibrante): 50px (20.0%) -->
+      <rect mask="url(#rect-mask)" data-testid="lang-progress" x="130" y="0" width="50" height="8" fill="#a855f7" />
+      <!-- Tailwind CSS (Verde Esmeralda): 35px (14.0%) -->
+      <rect mask="url(#rect-mask)" data-testid="lang-progress" x="180" y="0" width="35" height="8" fill="#10b981" />
+      <!-- JavaScript (Amarelo Ouro): 15px (6.0%) -->
       <rect mask="url(#rect-mask)" data-testid="lang-progress" x="215" y="0" width="15" height="8" fill="#f1e05a" />
-      <!-- PostgreSQL: 12px (4.8%) -->
-      <rect mask="url(#rect-mask)" data-testid="lang-progress" x="230" y="0" width="12" height="8" fill="#336791" />
-      <!-- Python: 8px (3.2%) -->
-      <rect mask="url(#rect-mask)" data-testid="lang-progress" x="242" y="0" width="8" height="8" fill="#3572A5" />
+      <!-- PostgreSQL (Laranja Intenso): 12px (4.8%) -->
+      <rect mask="url(#rect-mask)" data-testid="lang-progress" x="230" y="0" width="12" height="8" fill="#ff7a00" />
+      <!-- Python (Rosa/Coral): 8px (3.2%) -->
+      <rect mask="url(#rect-mask)" data-testid="lang-progress" x="242" y="0" width="8" height="8" fill="#f43f5e" />
 
-      <!-- Legendas em 2 Colunas -->
+      <!-- Legendas em 2 Colunas com as novas cores distintas -->
       <g transform="translate(0, 25)">
         <!-- Coluna 1 -->
         <g transform="translate(0, 0)">
@@ -82,13 +83,13 @@
         </g>
         <g transform="translate(0, 25)">
           <g class="stagger" style="animation-delay: 600ms">
-            <circle cx="5" cy="6" r="5" fill="#61dafb" />
+            <circle cx="5" cy="6" r="5" fill="#a855f7" />
             <text data-testid="lang-name" x="15" y="10" class="lang-name">React 20.0%</text>
           </g>
         </g>
         <g transform="translate(0, 50)">
           <g class="stagger" style="animation-delay: 750ms">
-            <circle cx="5" cy="6" r="5" fill="#38bdf8" />
+            <circle cx="5" cy="6" r="5" fill="#10b981" />
             <text data-testid="lang-name" x="15" y="10" class="lang-name">Tailwind CSS 14.0%</text>
           </g>
         </g>
@@ -102,13 +103,13 @@
         </g>
         <g transform="translate(125, 25)">
           <g class="stagger" style="animation-delay: 1050ms">
-            <circle cx="5" cy="6" r="5" fill="#336791" />
+            <circle cx="5" cy="6" r="5" fill="#ff7a00" />
             <text data-testid="lang-name" x="15" y="10" class="lang-name">PostgreSQL 4.8%</text>
           </g>
         </g>
         <g transform="translate(125, 50)">
           <g class="stagger" style="animation-delay: 1200ms">
-            <circle cx="5" cy="6" r="5" fill="#3572A5" />
+            <circle cx="5" cy="6" r="5" fill="#f43f5e" />
             <text data-testid="lang-name" x="15" y="10" class="lang-name">Python 3.2%</text>
           </g>
         </g>
