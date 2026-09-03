@@ -1,0 +1,114 @@
+<svg
+  width="300"
+  height="200"
+  viewBox="0 0 300 200"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="descId"
+>
+  <title id="titleId">Tecnologias mais usadas nos projetos de Alisson Freitas</title>
+  <desc id="descId">TypeScript 52%, React 20%, Tailwind CSS 14%, JavaScript 6%, PostgreSQL 4.8%, Python 3.2%</desc>
+  <style>
+    .header {
+      font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #70a5fd;
+      animation: fadeInAnimation 0.8s ease-in-out forwards;
+    }
+    @supports(-moz-appearance: auto) {
+      .header { font-size: 15.5px; }
+    }
+    .lang-name {
+      font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
+      fill: #a9b1d6;
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.5s ease-in-out forwards;
+    }
+    @keyframes fadeInAnimation {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+
+  <rect
+    data-testid="card-bg"
+    x="0.5"
+    y="0.5"
+    rx="4.5"
+    height="199"
+    stroke="#292e42"
+    width="299"
+    fill="#1a1b27"
+    stroke-opacity="1"
+  />
+
+  <g data-testid="card-title" transform="translate(25, 35)">
+    <text x="0" y="0" class="header" data-testid="header">Tecnologias</text>
+  </g>
+
+  <g data-testid="main-card-body" transform="translate(25, 52)">
+    <!-- Progress Bar -->
+    <mask id="bar-mask">
+      <rect x="0" y="0" width="250" height="8" fill="white" rx="4"/>
+    </mask>
+
+    <!-- Bar Segments: Total 250px -->
+    <!-- TypeScript: 130px (52%) -->
+    <rect mask="url(#bar-mask)" x="0" y="0" width="130" height="8" fill="#3178c6" />
+    <!-- React: 50px (20%) -->
+    <rect mask="url(#bar-mask)" x="130" y="0" width="50" height="8" fill="#61dafb" />
+    <!-- Tailwind CSS: 35px (14%) -->
+    <rect mask="url(#bar-mask)" x="180" y="0" width="35" height="8" fill="#38bdf8" />
+    <!-- JavaScript: 15px (6%) -->
+    <rect mask="url(#bar-mask)" x="215" y="0" width="15" height="8" fill="#f7df1e" />
+    <!-- PostgreSQL: 12px (4.8%) -->
+    <rect mask="url(#bar-mask)" x="230" y="0" width="12" height="8" fill="#336791" />
+    <!-- Python: 8px (3.2%) -->
+    <rect mask="url(#bar-mask)" x="242" y="0" width="8" height="8" fill="#3572A5" />
+
+    <!-- Language Labels (2 Columns) -->
+    <g transform="translate(0, 24)">
+      <!-- Coluna 1 -->
+      <g transform="translate(0, 0)">
+        <g class="stagger" style="animation-delay: 150ms">
+          <circle cx="5" cy="6" r="5" fill="#3178c6" />
+          <text x="16" y="10" class="lang-name">TypeScript 52.0%</text>
+        </g>
+      </g>
+      <g transform="translate(0, 26)">
+        <g class="stagger" style="animation-delay: 300ms">
+          <circle cx="5" cy="6" r="5" fill="#61dafb" />
+          <text x="16" y="10" class="lang-name">React 20.0%</text>
+        </g>
+      </g>
+      <g transform="translate(0, 52)">
+        <g class="stagger" style="animation-delay: 450ms">
+          <circle cx="5" cy="6" r="5" fill="#38bdf8" />
+          <text x="16" y="10" class="lang-name">Tailwind CSS 14.0%</text>
+        </g>
+      </g>
+
+      <!-- Coluna 2 -->
+      <g transform="translate(130, 0)">
+        <g class="stagger" style="animation-delay: 600ms">
+          <circle cx="5" cy="6" r="5" fill="#f7df1e" />
+          <text x="16" y="10" class="lang-name">JavaScript 6.0%</text>
+        </g>
+      </g>
+      <g transform="translate(130, 26)">
+        <g class="stagger" style="animation-delay: 750ms">
+          <circle cx="5" cy="6" r="5" fill="#336791" />
+          <text x="16" y="10" class="lang-name">PostgreSQL 4.8%</text>
+        </g>
+      </g>
+      <g transform="translate(130, 52)">
+        <g class="stagger" style="animation-delay: 900ms">
+          <circle cx="5" cy="6" r="5" fill="#3572A5" />
+          <text x="16" y="10" class="lang-name">Python 3.2%</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
