@@ -145,8 +145,9 @@ Me chamo Alisson Freitas, tenho 33 anos e sou natural de Boituva, interior de SÃ
 
   <img 
     align="left" 
-    alt="GitHub Stats" 
+    alt="Tecnologias Mais Usadas" 
     height="200" 
-    src="https://github-stats-extended.vercel.app/api/top-langs/?username=ofreittas-debug&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
+    src="./tecnologias.svg" 
   />
 </p>
+
