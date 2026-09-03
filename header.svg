@@ -7,7 +7,7 @@
   role="img"
   aria-labelledby="headerTitle headerDesc"
 >
-  <title id="headerTitle">Alisson Freitas - Desenvolvedor Full-Stack & Engenharia de Software</title>
+  <title id="headerTitle">Alisson Freitas - Desenvolvedor Full-Stack &amp; Engenharia de Software</title>
   <desc id="headerDesc">Banner oficial de Alisson Freitas, Desenvolvedor Full-Stack e Engenheiro de Software</desc>
 
   <defs>
@@ -24,7 +24,7 @@
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Brilho Ambiente Direito (Bordô Premium AF Stack) -->
+    <!-- Brilho Ambiente Direito (Bordo Premium AF Stack) -->
     <radialGradient id="glowWine" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(750, 60) rotate(135) scale(260 200)">
       <stop offset="0%" stop-color="#8B1E2D" stop-opacity="0.32"/>
       <stop offset="60%" stop-color="#6b1420" stop-opacity="0.12"/>
@@ -51,7 +51,7 @@
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.25"/>
     </linearGradient>
 
-    <!-- Padrão de Grade Tecnológica -->
+    <!-- Padrao de Grade Tecnologica -->
     <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
       <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.18"/>
       <circle cx="0" cy="0" r="1" fill="#475569" fill-opacity="0.25"/>
@@ -87,8 +87,9 @@
       fill: #94a3b8;
     }
     .tech-pill {
-      font: 500 10.5px 'JetBrains Mono', 'Fira Code', monospace;
-      fill: #cbd5e1;
+      font: 500 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif;
+      fill: #e2e8f0;
+      letter-spacing: 0.2px;
     }
   </style>
 
@@ -102,7 +103,7 @@
   <!-- Grade Sutil -->
   <rect x="1" y="1" width="848" height="218" rx="10" fill="url(#grid)"/>
 
-  <!-- ==================== LADO ESQUERDO: APRESENTAÇÃO ==================== -->
+  <!-- LADO ESQUERDO: APRESENTACAO -->
   <g transform="translate(36, 32)">
     <!-- Pill Superior: Engenharia de Software -->
     <g>
@@ -117,36 +118,41 @@
     <!-- Cargo Principal com Destaque -->
     <text x="0" y="82" class="role-text">Desenvolvedor Full-Stack • Arquiteto de Software Web</text>
 
-    <!-- Subtítulo de Posicionamento -->
+    <!-- Subtitulo de Posicionamento -->
     <text x="0" y="104" class="subtitle-text">Construindo aplicações modernas, SaaS escaláveis e sistemas corporativos seguros.</text>
 
-    <!-- Chips das Tecnologias Centrais -->
+    <!-- Chips das Tecnologias Centrais (Blocos Individuais com Espaçamento Amplo) -->
     <g transform="translate(0, 126)">
       <!-- Chip 1: TypeScript -->
-      <rect x="0" y="0" width="85" height="24" rx="6" fill="#1e293b" fill-opacity="0.85" stroke="#334155" stroke-width="1"/>
-      <circle cx="10" cy="12" r="3" fill="#3178c6"/>
-      <text x="18" y="16" class="tech-pill">TypeScript</text>
+      <rect x="0" y="0" width="96" height="24" rx="6" fill="#1e293b" fill-opacity="0.85" stroke="#334155" stroke-width="1"/>
+      <circle cx="12" cy="12" r="3.5" fill="#3178c6"/>
+      <text x="22" y="16" class="tech-pill">TypeScript</text>
 
-      <!-- Chip 2: Next.js / React -->
-      <rect x="93" y="0" width="98" height="24" rx="6" fill="#1e293b" fill-opacity="0.85" stroke="#334155" stroke-width="1"/>
-      <circle cx="103" cy="12" r="3" fill="#61dafb"/>
-      <text x="111" y="16" class="tech-pill">Next.js • React</text>
+      <!-- Chip 2: Next.js -->
+      <rect x="104" y="0" width="82" height="24" rx="6" fill="#1e293b" fill-opacity="0.85" stroke="#334155" stroke-width="1"/>
+      <circle cx="116" cy="12" r="3.5" fill="#ffffff"/>
+      <text x="126" y="16" class="tech-pill">Next.js</text>
 
-      <!-- Chip 3: Node / PostgreSQL -->
-      <rect x="199" y="0" width="124" height="24" rx="6" fill="#1e293b" fill-opacity="0.85" stroke="#334155" stroke-width="1"/>
-      <circle cx="209" cy="12" r="3" fill="#336791"/>
-      <text x="217" y="16" class="tech-pill">PostgreSQL • RLS</text>
+      <!-- Chip 3: React (Bloco Próprio) -->
+      <rect x="194" y="0" width="76" height="24" rx="6" fill="#1e293b" fill-opacity="0.85" stroke="#334155" stroke-width="1"/>
+      <circle cx="206" cy="12" r="3.5" fill="#61dafb"/>
+      <text x="216" y="16" class="tech-pill">React</text>
 
-      <!-- Chip 4: Tailwind CSS -->
-      <rect x="331" y="0" width="95" height="24" rx="6" fill="#1e293b" fill-opacity="0.85" stroke="#334155" stroke-width="1"/>
-      <circle cx="341" cy="12" r="3" fill="#38bdf8"/>
-      <text x="349" y="16" class="tech-pill">Tailwind CSS</text>
+      <!-- Chip 4: PostgreSQL -->
+      <rect x="278" y="0" width="104" height="24" rx="6" fill="#1e293b" fill-opacity="0.85" stroke="#334155" stroke-width="1"/>
+      <circle cx="290" cy="12" r="3.5" fill="#ff7a00"/>
+      <text x="300" y="16" class="tech-pill">PostgreSQL</text>
+
+      <!-- Chip 5: Tailwind -->
+      <rect x="390" y="0" width="88" height="24" rx="6" fill="#1e293b" fill-opacity="0.85" stroke="#334155" stroke-width="1"/>
+      <circle cx="402" cy="12" r="3.5" fill="#38bdf8"/>
+      <text x="412" y="16" class="tech-pill">Tailwind</text>
     </g>
   </g>
 
-  <!-- ==================== LADO DIREITO: CARD DE STATUS & AUTORIDADE ==================== -->
+  <!-- LADO DIREITO: CARD DE STATUS E AUTORIDADE -->
   <g transform="translate(535, 28)">
-    <!-- Cartão de Fundo Efeito Glass -->
+    <!-- Cartao de Fundo Efeito Glass -->
     <rect x="0" y="0" width="280" height="164" rx="10" fill="#111622" fill-opacity="0.88" stroke="url(#cardBorder)" stroke-width="1.2"/>
 
     <!-- Item 1: Disponibilidade -->
@@ -157,27 +163,27 @@
       <text x="22" y="21" class="status-sub">Projetos Sob Demanda • CLT / PJ</text>
     </g>
 
-    <!-- Linha Divisória 1 -->
+    <!-- Linha Divisoria 1 -->
     <line x1="18" y1="58" x2="262" y2="58" stroke="#334155" stroke-opacity="0.4" stroke-width="0.8"/>
 
-    <!-- Item 2: Localização & Formato -->
+    <!-- Item 2: Localizacao e Formato -->
     <g transform="translate(18, 70)">
-      <!-- Ícone Pin -->
+      <!-- Icone Pin -->
       <path d="M 7 2 C 4.5 2 2.5 4 2.5 6.5 C 2.5 10 7 14 7 14 C 7 14 11.5 10 11.5 6.5 C 11.5 4 9.5 2 7 2 Z" fill="none" stroke="#38bdf8" stroke-width="1.2"/>
       <circle cx="7" cy="6.5" r="1.5" fill="#38bdf8"/>
       <text x="22" y="7" class="status-title">Sorocaba, SP — Brasil</text>
       <text x="22" y="21" class="status-sub">Atuação Presencial, Híbrida ou Remota</text>
     </g>
 
-    <!-- Linha Divisória 2 -->
+    <!-- Linha Divisoria 2 -->
     <line x1="18" y1="108" x2="262" y2="108" stroke="#334155" stroke-opacity="0.4" stroke-width="0.8"/>
 
-    <!-- Item 3: Estúdio Próprio -->
+    <!-- Item 3: Estudio Proprio -->
     <g transform="translate(18, 120)">
-      <!-- Ícone Rocket -->
+      <!-- Icone Rocket -->
       <path d="M 7 2 C 7 2 11 4 11 9 L 9 11 L 3 11 L 3 9 C 3 4 7 2 7 2 Z" fill="none" stroke="#f43f5e" stroke-width="1.2"/>
       <text x="22" y="7" class="status-title">Fundador @ AF Stack Studio</text>
-      <text x="22" y="21" class="status-sub">Engenharia de Software & SaaS</text>
+      <text x="22" y="21" class="status-sub">Engenharia de Software &amp; SaaS</text>
     </g>
   </g>
 </svg>
