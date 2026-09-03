@@ -32,7 +32,7 @@ Algumas das aplicações completas concebidas, arquitetadas e ativas em produç�
 | **Super Leads Hub** | SaaS Multi-Tenant | Ingestão e telemetria de tráfego em tempo real, isolamento estrito de dados entre empresas via RLS no PostgreSQL e painel RBAC. | `Next.js` `TypeScript` `PostgreSQL` `Tailwind` | [🌐 Acessar Site](https://super-leads-hub-main.vercel.app) |
 | **DriveX** | SaaS / PWA Financeiro | Plataforma analítica para motoristas de aplicativo com algoritmos de rentabilidade líquida instantânea (R$/km e R$/h) e exportação em PDF. | `React` `TypeScript` `PWA` `Chart.js` | [🌐 Acessar Site](https://drivex1.vercel.app) |
 | **Gestão Imóveis** | Portal & CRM Imobiliário | Portal corporativo e CRM com filtros dinâmicos, métricas analíticas de procura por imóvel e captação direta de leads. | `TanStack` `TypeScript` `Supabase` `Radix UI` | [🌐 Acessar Site](https://gestaoimoveis.net.br) |
-| **Libertadores da Depressão** | Mídia Kit Comercial | Plataforma comercial interativa para marcas com gráficos dinâmicos de audiência e painel restrito (`/admin`) para gestão de métricas. | `React` `Vite` `Supabase` `Recharts` | [🌐 Ver Aplicação](https://libertadoresdadepre.vercel.app) |
+| **Libertadores da Depressão** | Mídia Kit Comercial | Plataforma comercial interativa para marcas com gráficos dinâmicos de audiência e painel restrito (`/admin`) para gestão de métricas. | `React` `Vite` `Supabase` `Recharts` | [🌐 Acessar Site](https://libertadoresdadepre.vercel.app) |
 | **AF Stack Studio** | Portfólio & Engenharia | Portfólio interativo com terminal emulado, arquitetura dos sistemas, dossiês de avaliação e métricas de ROI. | `Next.js 14` `TypeScript` `Framer Motion` | [🌐 Acessar Site](https://alissonfreittas.vercel.app) |
 
 ---
